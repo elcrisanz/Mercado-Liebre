@@ -291,7 +291,8 @@ footer i{
         width: 100%;
     }    
     .article:hover .descripcion{
-        visibility:visible        
+        visibility:visible; 
+        transition: 0.5s;
     }
     .article{
          flex:50%;
@@ -299,6 +300,7 @@ footer i{
     }
     .article:hover{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        transition: 0.5s;
     }
       
     .sin_puntos{
